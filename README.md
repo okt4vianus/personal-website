@@ -42,4 +42,3 @@ I’d love to hear from you! Here’s how we can connect:
 - 🐱 GitHub: [https://github.com/okt4vianus]
 
 Thanks for stopping by! I can’t wait to connect and collaborate. 🌟
-# demo-git

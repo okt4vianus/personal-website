@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
 body {
-  background-color: #0f172a;
-  gap: 20px;
+  background: content-box radial-gradient(#0f172a, rgb(53, 149, 187));
   color: white;
 
   font-family: "Poppins", sans-serif;
@@ -10,13 +13,22 @@ body {
 
 .wrapper {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row;
 }
 
 .column {
-  padding: 100px solid white;
-  border: 2px solid white;
+  padding: 10px;
 }
+
+main {
+  overflow-y: auto; /* Make the right column scrollable */
+  max-height: 100vh; /* Ensure it doesn’t go beyond viewport */
+}
+
+main section {
+  margin-bottom: 100px; /* Spacing between sections */
+}
+
 h1 {
   font-size: 48px;
 }
@@ -27,4 +39,38 @@ h2 {
 
 .description {
   font-size: 20px;
+}
+
+.navigation {
+  list-style-type: disc; /* Remove bullet point */
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+li:hover {
+  transform: translateX(10px); /* Move text to the right */
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
 }

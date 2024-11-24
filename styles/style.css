@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background: content-box hsl(222, 47%, 30%);
-  color: white;
+  background: hsl(222, 50%, 10%);
+  color: hsl(215, 20%, 75%);
 
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -21,7 +21,7 @@ a {
 }
 
 .column {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 main {
@@ -34,11 +34,15 @@ main section {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: hsl(214, 32%, 91%);
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
+  /* line-height: 1.75rem; */
+  color: hsl(214, 32%, 91%);
 }
 
 .description {
@@ -77,4 +81,127 @@ li:hover {
 
 .social-icon:hover {
   color: hsl(211, 100%, 70%); /* Change color on hover */
+}
+
+section {
+  padding-top: 30px;
+}
+
+/* This area css 
+  for contact/index.html */
+
+* {
+  box-sizing: border-box;
+}
+
+.contact-page input,
+.contact-page textarea,
+.contact-page button {
+  font-family: "Montserrat-Regular";
+  color: #fff;
+  font-size: 15px;
+}
+
+.contact-page {
+  font-family: "Montserrat-Regular";
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+}
+
+.contact-page p,
+.contact-page h1,
+.contact-page h2,
+.contact-page h3,
+.contact-page h4,
+.contact-page h5,
+.contact-page h6,
+.contact-page ul {
+  margin: 0;
+}
+
+.contact-page h3 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: "Montserrat-Bold";
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.contact-page p {
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 55px;
+  line-height: 1.8;
+}
+
+.contact-page .wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("/images/bg-contact.jpg");
+  background-size: cover;
+}
+
+.contact-page .inner {
+  max-width: 758px;
+  margin: auto;
+  /* background: #39459b; */
+  background: hsl(222, 50%, 10%);
+  /* border: 10px solid #0d99d7; */
+  border: 10px solid hsl(215, 20%, 75%);
+  padding: 77px 99px 87px;
+}
+
+.contact-page .form-group {
+  display: flex;
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.contact-page .form-control:focus {
+  outline: none;
+}
+.contact-page .form-control {
+  border: none;
+  border-bottom: 2px solid #00ade6;
+  display: flex;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  background: none;
+  font-family: "Montserrat-SemiBold";
+}
+
+.contact-page .form-group span {
+  font-size: 15px;
+  color: #00ade6;
+  position: absolute;
+  top: 12px;
+  transition: all 0.2s ease;
+  transform-origin: 0 0;
+  cursor: text;
+}
+
+.contact-page .form-control:focus,
+.contact-page .form-control:valid {
+  border-bottom: 2px solid #fff;
+  & + span {
+    transform: translateY(-22px) scale(0.8);
+  }
+}
+
+.contact-page button {
+  width: 162px;
+  height: 51px;
+  border: 2px solid #fff;
+  margin: auto;
+  margin-top: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
 }

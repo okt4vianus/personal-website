@@ -38,7 +38,7 @@ Here’s what I bring to the table:
 
 I’d love to hear from you! Here’s how we can connect:
 
-- 🔗 LinkedIn: [https://www.linkedin.com/in/oktavianus-rante-tasak-503a207a/]
+- 🔗 LinkedIn: [https://www.linkedin.com/in/okt4vianus/]
 - 🐱 GitHub: [https://github.com/okt4vianus]
 
 Thanks for stopping by! I can’t wait to connect and collaborate. 🌟

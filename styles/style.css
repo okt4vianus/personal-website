@@ -1,8 +1,8 @@
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .wrapper {
     flex-direction: row;
   }
-}
+} */
 
 html {
   scroll-behavior: smooth; /* Enables smooth scrolling */
@@ -50,12 +50,20 @@ h2 {
   color: hsl(214, 32%, 91%);
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 .description {
   font-size: 16px;
 }
 
 .navigation {
   list-style-type: disc; /* Remove bullet point */
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -135,7 +143,7 @@ section {
   margin: 0;
 }
 
-.contact-page h3 {
+.contact-page h2 {
   text-transform: uppercase;
   font-size: 45px;
   font-family: "Montserrat-Bold";
@@ -265,6 +273,13 @@ section {
     padding-bottom: 700px;
   }
 
+  .contact-page h2 {
+    font-size: 28px;
+  }
+
+  .contact-page p {
+    font-size: 14px;
+  }
   .contact-page .wrapper {
     flex-direction: column;
     padding: 20px;
